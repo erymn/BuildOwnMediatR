@@ -1,5 +1,10 @@
 <Solution>
-  <Project Path="ZPro.Custom.CQRS.DI/ZPro.Custom.CQRS.DI.csproj" />
-  <Project Path="ZPro.Custom.CQRS.Handler/ZPro.Custom.CQRS.Handler.csproj" />
-  <Project Path="ZPro.Custom.CQRS.Interface/ZPro.Custom.CQRS.Interface.csproj" />
+  <Folder Name="/CustomCQRS/">
+    <Project Path="ZPro.Custom.CQRS.DI/ZPro.Custom.CQRS.DI.csproj" />
+    <Project Path="ZPro.Custom.CQRS.Handler/ZPro.Custom.CQRS.Handler.csproj" />
+    <Project Path="ZPro.Custom.CQRS.Interface/ZPro.Custom.CQRS.Interface.csproj" />
+  </Folder>
+  <Folder Name="/CustomCQRSImpl/">
+    <Project Path="CustomImplementation/CustomImplementation.csproj" />
+  </Folder>
 </Solution>
